@@ -2,7 +2,7 @@
 
 Welcome to the CoffeeShop Java Application! This simple Java app allows users to order coffee with customizable options. ☕
 
-![The Coffee Shop](TheCoffeeShopJavaWebpageDemo.png)
+![The Coffee Shop](<The CoffeeShop Java Webpage Demo.png>)
 
 ## Summary
 
@@ -51,9 +51,15 @@ The CoffeeShop app is a Java-based application with a MySQL database. It include
 spring.datasource.url=jdbc:mysql://localhost:3306/coffeeshop
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+<<<<<<< HEAD
 ```
 
 4. Implement Application Logic
+=======
+
+Step 4: Implement Application Logic
+Implement Logic in CoffeeShopApp.java:
+>>>>>>> 35ad333c2b8cebdb0d60199a8995a13bfe1d3e80
 Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
 
 5. Run the Application
@@ -74,19 +80,24 @@ java -jar target/your_project_name.jar
 1. **Open a web browser and go to `http://localhost:8080`** (assuming your frontend is running on this port).
 2. **Test the ordering process and check if the data is stored in the database.**
 
-## Additional Notes
 
-- For a more comprehensive, production-ready application, consider using Spring Boot for backend development and a dedicated frontend framework for better user interfaces.
+<<<<<<< HEAD
+=======
+Use a simple web server to serve the HTML file. For example, install the "Live Server" extension in VSCode.
+Step 7: Test the Application
+Test the Application:
+Open a web browser and go to http://localhost:8080 (assuming your frontend is running on this port).
+Test the ordering process and check if the data is stored in the database.
+These steps provide a basic setup for a Java application in VSCode. For a more comprehensive, production-ready application, consider using Spring Boot for backend development and a dedicated frontend framework for better user interfaces.
 
 
 
-**Key improvements for visual appeal:**
 
-- **Image placement:** The image is placed prominently at the beginning to visually engage users.
-- **Headings and spacing:** Clear headings and appropriate spacing organize content for readability.
-- **Code blocks:** Code is highlighted for clarity.
-- **Links:** External resources are linked for convenience.
-- **Emphasis:** Key points are highlighted using bold and italic text.
+4. Implement Application Logic
+Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
 
-Remember to place the image file named "TheCoffeeShopJavaWebpageDemo.png
-
+5. Run the Application
+Open the terminal in VSCode.
+Navigate to your project folder.
+Run the following command to compile and run the application:
+>>>>>>> 35ad333c2b8cebdb0d60199a8995a13bfe1d3e80
