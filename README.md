@@ -54,15 +54,14 @@ spring.datasource.password=your_password
 <<<<<<< HEAD
 ```
 
-4. Implement Application Logic
+### 4. Implement Application Logic
 =======
 
-Step 4: Implement Application Logic
 Implement Logic in CoffeeShopApp.java:
 >>>>>>> 35ad333c2b8cebdb0d60199a8995a13bfe1d3e80
 Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
 
-5. Run the Application
+### 5. Run the Application
 Open the terminal in VSCode.
 Navigate to your project folder.
 Run the following command to compile and run the application:
