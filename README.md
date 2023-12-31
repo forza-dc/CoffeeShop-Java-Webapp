@@ -1,6 +1,9 @@
 CoffeeShop Java Application
 Welcome to the CoffeeShop Java Application! This simple Java app allows users to order coffee with customizable options. Follow the steps below to set up and run the application using Visual Studio Code.
 
+
+![The Coffee Shop](<The CoffeeShop Java Webpage Demo.png>)
+
 Summary
 The CoffeeShop app is a Java-based application with a MySQL database. It includes a frontend component for ordering coffee and backend components for processing orders and managing inventory.
 
