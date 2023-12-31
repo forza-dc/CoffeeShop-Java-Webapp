@@ -77,3 +77,14 @@ Test the Application:
 Open a web browser and go to http://localhost:8080 (assuming your frontend is running on this port).
 Test the ordering process and check if the data is stored in the database.
 These steps provide a basic setup for a Java application in VSCode. For a more comprehensive, production-ready application, consider using Spring Boot for backend development and a dedicated frontend framework for better user interfaces.
+
+
+
+
+4. Implement Application Logic
+Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
+
+5. Run the Application
+Open the terminal in VSCode.
+Navigate to your project folder.
+Run the following command to compile and run the application:
