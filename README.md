@@ -1,6 +1,8 @@
 # CoffeeShop Java Application ☕
 
-Welcome to the CoffeeShop Java Application! This simple Java app allows users to order coffee with customizable options. ☕
+Welcome to the CoffeeShop Java Application! 
+
+This simple Java app allows users to order coffee with customizable options. ☕
 
 ![The Coffee Shop](<The CoffeeShop Java Webpage Demo.png>)
 
@@ -51,14 +53,13 @@ The CoffeeShop app is a Java-based application with a MySQL database. It include
 spring.datasource.url=jdbc:mysql://localhost:3306/coffeeshop
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-<<<<<<< HEAD
 ```
 
 ### 4. Implement Application Logic
-=======
+
 
 Implement Logic in CoffeeShopApp.java:
->>>>>>> 35ad333c2b8cebdb0d60199a8995a13bfe1d3e80
+
 Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
 
 ### 5. Run the Application
