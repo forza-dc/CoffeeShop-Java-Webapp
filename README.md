@@ -81,7 +81,7 @@ java -jar target/your_project_name.jar
 2. **Test the ordering process and check if the data is stored in the database.**
 
 
-<<<<<<< HEAD
+
 =======
 Use a simple web server to serve the HTML file. For example, install the "Live Server" extension in VSCode.
 Step 7: Test the Application
@@ -92,12 +92,3 @@ These steps provide a basic setup for a Java application in VSCode. For a more c
 
 
 
-
-4. Implement Application Logic
-Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
-
-5. Run the Application
-Open the terminal in VSCode.
-Navigate to your project folder.
-Run the following command to compile and run the application:
->>>>>>> 35ad333c2b8cebdb0d60199a8995a13bfe1d3e80
