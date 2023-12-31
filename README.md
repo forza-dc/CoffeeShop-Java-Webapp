@@ -1,59 +1,57 @@
-CoffeeShop Java Application
-Welcome to the CoffeeShop Java Application! This simple Java app allows users to order coffee with customizable options. Follow the steps below to set up and run the application using Visual Studio Code.
+# CoffeeShop Java Application ☕
 
+Welcome to the CoffeeShop Java Application! This simple Java app allows users to order coffee with customizable options. ☕
 
-![The Coffee Shop](<The CoffeeShop Java Webpage Demo.png>)
+![The Coffee Shop](TheCoffeeShopJavaWebpageDemo.png)
 
-Summary
-The CoffeeShop app is a Java-based application with a MySQL database. It includes a frontend component for ordering coffee and backend components for processing orders and managing inventory.
+## Summary
 
-Step-by-Step Instructions
-Step 1: Install Required Software
-Java Development Kit (JDK):
+The CoffeeShop app is a Java-based application with a MySQL database. It includes:
 
-Install the latest JDK from the official Oracle website or use OpenJDK.
-Visual Studio Code:
+- **Frontend:** An optional HTML form for ordering coffee.
+- **Backend:** Components for processing orders and managing inventory.
 
-Download and install VSCode from the official website.
-MySQL Database:
+## Step-by-Step Instructions
 
-Install MySQL and create a database named "coffeeshop."
-Step 2: Set Up Project in VSCode
-Open VSCode:
+### 1. Install Required Software
 
-Launch VSCode.
-Install Extensions:
+- **Java Development Kit (JDK):** Download the latest JDK from the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html) or use OpenJDK.
+- **Visual Studio Code:** Download and install VSCode from the [official website](https://code.visualstudio.com/).
+- **MySQL Database:** Install MySQL and create a database named "coffeeshop."
 
-Install the "Java Extension Pack" by Microsoft for Java development support.
-Install "Maven for Java" extension to support Maven projects.
-Open Project Folder:
+### 2. Set Up Project in VSCode
 
-Create a new folder for your project.
-Open VSCode and go to File > Open Folder, then select your project folder.
-Create POM File:
+1. **Open VSCode:** Launch VSCode.
+2. **Install Extensions:**
+   - Install the "Java Extension Pack" by Microsoft for Java development support.
+   - Install "Maven for Java" extension to support Maven projects.
+3. **Open Project Folder:**
+   - Create a new folder for your project.
+   - Open VSCode and go to `File > Open Folder`, then select your project folder.
+4. **Create POM File:**
+   - Inside your project folder, create a file named `pom.xml` and add Maven dependencies.
+5. **Create Java Package:**
+   - Inside the `src/main/java` folder, create the package structure `com/coffeeshop`.
+   - Create Java files (`Coffee.java`, `Order.java`, `CoffeeDao.java`, `CoffeeService.java`, `DBUtil.java`, `CoffeeShopApp.java`) inside the appropriate packages.
+6. **Create Resources Folder:**
+   - Inside your project folder, create a folder named `resources`.
+   - Create a file named `application.properties` inside the `resources` folder.
+7. **Create Web Folder (Optional):**
+   - Inside your project folder, create a folder named `web`.
+   - Create a file named `index.html` inside the `web` folder.
 
-Inside your project folder, create a file named pom.xml and add Maven dependencies.
-Create Java Package:
+### 3. Configure Database Connection
 
-Inside the src/main/java folder, create the package structure com/coffeeshop.
-Create Java files (Coffee.java, Order.java, CoffeeDao.java, CoffeeService.java, DBUtil.java, CoffeeShopApp.java) inside the appropriate packages.
-Create Resources Folder:
+**Configure application.properties:**
 
-Inside your project folder, create a folder named resources.
-Create a file named application.properties inside the resources folder.
-Create Web Folder:
+- Open the `application.properties` file in the `resources` folder.
+- Add the following properties:
 
-Inside your project folder, create a folder named web.
-Create a file named index.html inside the web folder.
-Step 3: Configure Database Connection
-Configure application.properties:
-Open the application.properties file in the resources folder.
-Add the following properties:
-properties
-Copy code
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/coffeeshop
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
 Step 4: Implement Application Logic
 Implement Logic in CoffeeShopApp.java:
 Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
