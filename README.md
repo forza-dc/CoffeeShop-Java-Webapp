@@ -44,11 +44,14 @@ Add the following properties:
 spring.datasource.url=jdbc:mysql://localhost:3306/coffeeshop
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-Step 4: Implement Application Logic
+
+
+
+### Step 4: Implement Application Logic
 Implement Logic in CoffeeShopApp.java:
 Complete the logic for user interaction in CoffeeShopApp.java. Use Scanner for simplicity.
 
-Step 5: Run the Application
+### Step 5: Run the Application
 Run the Application:
 Open the terminal in VSCode.
 Navigate to your project folder.
@@ -59,7 +62,7 @@ mvn clean install
 java -jar target/your_project_name.jar
 
 
-Step 6: Create Frontend (Optional)
+### Step 6: Create Frontend (Optional)
 Implement HTML Form:
 Open the index.html file in the web folder.
 Create a simple HTML form for ordering coffee.
@@ -67,7 +70,7 @@ Create a simple HTML form for ordering coffee.
 Run HTML File:
 Use a simple web server to serve the HTML file. For example, install the "Live Server" extension in VSCode.
 
-Step 7: Test the Application
+#### Step 7: Test the Application
 Test the Application:
 Open a web browser and go to http://localhost:8080 (assuming your frontend is running on this port).
 Test the ordering process and check if the data is stored in the database.
