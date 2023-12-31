@@ -11,9 +11,6 @@
             font-family: 'Arial', sans-serif;
             background-color: #f8f9fa;
             padding: 30px;
-        }
-
-        h1, h2 {
             color: #343a40;
         }
 
@@ -114,4 +111,11 @@ spring.datasource.password=your_password</code></pre>
             <h2>Step 5: Run the Application</h2>
             <pre><code>Run the Application:
 Open the terminal in VSCode.
-Navigate to your
+Navigate to your project folder.
+Run the following command to compile and run the application:
+<code>mvn clean install
+java -jar target/your_project_name.jar</code></pre>
+        </div>
+    </div>
+</body>
+</html>
