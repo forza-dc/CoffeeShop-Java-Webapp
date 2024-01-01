@@ -2,7 +2,7 @@
 
 Welcome to the CoffeeShop Java Application! 
 
-This simple Java app allows users to order coffee with customizable options. ☕
+This simple Java app allows users to access a coffee shop's webpage. ☕
 
 ![The Coffee Shop](<The CoffeeShop Java Webpage Demo.png>)
 
