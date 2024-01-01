@@ -82,12 +82,15 @@ java -jar target/your_project_name.jar
 
 
 
-=======
-Use a simple web server to serve the HTML file. For example, install the "Live Server" extension in VSCode.
-Step 7: Test the Application
+
+Use a simple web server to serve the HTML file. 
+For example, install the "Live Server" extension in VSCode.
+
 Test the Application:
 Open a web browser and go to http://localhost:8080 (assuming your frontend is running on this port).
+
 Test the ordering process and check if the data is stored in the database.
+
 These steps provide a basic setup for a Java application in VSCode. For a more comprehensive, production-ready application, consider using Spring Boot for backend development and a dedicated frontend framework for better user interfaces.
 
 
