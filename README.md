@@ -1,4 +1,4 @@
-# CoffeeShop Java Application ☕
+# Coffee Shop Java Application ☕
 
 Welcome to the CoffeeShop Java Application! 
 
